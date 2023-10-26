@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jquery</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    <style>
+    .box{
+        position: absolute;
+        top: 50px;
+    left: 10px;
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    }  
+    </style>
+</head>
+
+<body>
+
+    <button id="animate">Animate</button>
+
+    <div class="box"></div>
+
+    <script>
+$(document).ready(function(){
+    $("#animate").click(function(){
+$(".box").animate({
+    left:"100px",
+    top:"100px",
+    backgroundColor: "blue",
+    width:"400px",
+    height:"400px",
+},3000,
+);
+});
+});
+    </script>
+ 
+</body>
+
+</html>

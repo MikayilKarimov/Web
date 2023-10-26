@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    font-family: 'Arya', sans-serif;
+font-family: 'Cabin', sans-serif;
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Dancing Script', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Mr Dafoe', cursive;
+font-family: 'Philosopher', sans-serif;
+line-height: 1.5;
+background-color: white;
+color: black;
+font-size: 2rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+#nav{
+   background-color: cornflowerblue;
+   color: white;
+   width: 100%;
+   height: auto;
+   padding-top: 3rem;
+    /*3rem vur 10px yeni*/
+    padding-bottom: 3rem;
+
+}
+
+.link-logo{
+    color: white;
+    font-weight: 700;
+    font-size: 3.2rem;
+    text-transform: uppercase;
+}
+
+#liste-div
+{
+    float: right;
+}
+
+.list{
+   float: left;
+    padding: 0.5rem;
+}
